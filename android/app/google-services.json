@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "229627474080",
+    "project_id": "cnc-firebase-starter",
+    "storage_bucket": "cnc-firebase-starter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229627474080:android:adf6f24731510f7bafd9c5",
+        "android_client_info": {
+          "package_name": "cnc.flutter_starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229627474080-94jn5lfabgonm7hmjbdl90ihbs9brqop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cnc.flutter_starter",
+            "certificate_hash": "a58dbb60a4a5993650a48ac58aedc446a76d015c"
+          }
+        },
+        {
+          "client_id": "229627474080-7hinu9b8f918tsbjfl6kc9v78agb73g2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBamCdhM6a8XAknX436vJvmgFKruwZs6yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229627474080-7hinu9b8f918tsbjfl6kc9v78agb73g2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
