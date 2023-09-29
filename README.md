@@ -10,6 +10,11 @@
 gh repo clone C4co/flutter_starter app_name
 ```
 
+## Configure Firebase
+```
+flutterfire configure
+```
+
 ## Layers
 
 - **components**: shared widgets
