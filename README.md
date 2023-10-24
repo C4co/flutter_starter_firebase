@@ -1,6 +1,6 @@
 # Flutter Starter
 
->My own flutter project starter
+>Base for Flutter + Firebase projects
 
 [![Flutter Starter](https://github.com/C4co/flutter_starter/actions/workflows/dart.yml/badge.svg)](https://github.com/C4co/flutter_starter/actions/workflows/dart.yml)
 
