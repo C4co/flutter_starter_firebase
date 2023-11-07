@@ -19,11 +19,10 @@ flutterfire configure
 
 - **components**: shared widgets
 - **core**: routes, themes, extras, preferences
-- **data**: repositories, services
 - **domain**: entities, contracts
 - **notifiers**: global states
 - **pages**: apo pages
-- **test**: units, widget tests
+- **test**: units and widget tests
 - **imports**: all imports
 
 ## What's inside
