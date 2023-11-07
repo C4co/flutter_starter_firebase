@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_starter/imports/app.dart';
 import 'package:go_router/go_router.dart';
-import '/imports/app.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -13,14 +13,12 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPageState extends State<SettingsPage> {
   bool _lightTheme = true;
 
-  final ThemeNotifier _themeNotifier = ThemeNotifier();
-
   User? user = FirebaseAuth.instance.currentUser;
 
   @override
   void initState() {
     super.initState();
-    _lightTheme = _themeNotifier.lightTheme.value;
+    _lightTheme = themeNotifier.lightTheme.value;
   }
 
   leaveApplication(BuildContext context) async {
@@ -61,14 +59,12 @@ class _SettingsPageState extends State<SettingsPage> {
               thumbIcon: MaterialStateProperty.all(
                 Icon(
                   _lightTheme ? Icons.light_mode : Icons.dark_mode,
-                  color: _lightTheme
-                      ? Theme.of(context).colorScheme.primary
-                      : Theme.of(context).colorScheme.onPrimary,
+                  color: _lightTheme ? Theme.of(context).colorScheme.primary : Theme.of(context).colorScheme.onPrimary,
                 ),
               ),
               onChanged: (bool value) {
                 setState(() {
-                  _themeNotifier.setLightTheme(value);
+                  themeNotifier.setLightTheme(value);
                   _lightTheme = value;
                 });
               },
