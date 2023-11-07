@@ -9,12 +9,13 @@ import '/imports/app.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  SystemChrome.setPreferredOrientations([
+  await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
 
-  await SharedPrefs().loadPreferences();
+  await sharedPrefs.loadPreferences();
+
   await dotenv.load(fileName: ".env");
 
   await Firebase.initializeApp(
