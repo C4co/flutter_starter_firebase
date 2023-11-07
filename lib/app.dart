@@ -8,7 +8,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ValueListenableBuilder(
-      valueListenable: ThemeNotifier().lightTheme,
+      valueListenable: themeNotifier.lightTheme,
       builder: (BuildContext context, bool value, child) {
         return MaterialApp.router(
           theme: appTheme(isLight: value),
