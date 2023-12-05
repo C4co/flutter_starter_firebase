@@ -1,4 +1,4 @@
-# Flutter Starter
+# Flutter Starter Firebase
 
 >Base for Flutter + Firebase projects
 
@@ -7,7 +7,7 @@
 ## Clone
 
 ```
-gh repo clone C4co/flutter_starter app_name
+gh repo clone C4co/flutter_starter_firebase app_name
 ```
 
 ## Configure Firebase
@@ -32,6 +32,7 @@ flutterfire configure
 - shared preferences
 - font_awesome_flutter
 - intl
+- firebase auth
 
 ## Commands
 
